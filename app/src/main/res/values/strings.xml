@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Bắt phím mũi tên trên điều khiển để di chuyển con trỏ chuột ảo khi chế độ chuột đang bật.</string>
+    <string name="title">DpadMouse – con trỏ chuột bằng phím điều khiển</string>
+    <string name="backend">Cách chạy lệnh shell</string>
+    <string name="backend_shizuku">Shizuku</string>
+    <string name="backend_adb">ADB TCP (adb tcpip 5555)</string>
+    <string name="hint_host">Địa chỉ ADB</string>
+    <string name="hint_port">Cổng</string>
+    <string name="sensitivity">Độ nhạy: %d</string>
+    <string name="connect">Kết nối &amp; tạo chuột ảo</string>
+    <string name="disconnect">Ngắt kết nối</string>
+    <string name="enable_a11y">Bật dịch vụ trợ năng (qua shell)</string>
+    <string name="open_a11y">Mở cài đặt trợ năng</string>
+    <string name="diag">Chẩn đoán môi trường</string>
+    <string name="keys_title">Gán phím (bấm nút rồi bấm phím trên điều khiển)</string>
+    <string name="key_toggle">Bật/tắt chuột: %s</string>
+    <string name="key_click">Click trái: %s</string>
+    <string name="key_right">Click phải: %s</string>
+    <string name="key_scroll_up">Cuộn lên: %s</string>
+    <string name="key_scroll_down">Cuộn xuống: %s</string>
+    <string name="learn_msg">Bấm phím muốn dùng trên điều khiển.</string>
+    <string name="learn_none">Không dùng phím này</string>
+    <string name="debug_title">Công cụ gỡ lỗi (chỉ bản debug)</string>
+    <string name="test_move">Test: nhích chuột sang phải</string>
+    <string name="test_click">Test: click</string>
+    <string name="copy_log">Sao chép log</string>
+    <string name="clear_log">Xoá log</string>
+    <string name="log_title">Log (mới nhất ở trên)</string>
+</resources>
