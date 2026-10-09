@@ -1,0 +1,18 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.20"
+coreKtx = "1.19.1"
+appcompat = "1.8.0"
+leakcanary = "2.14"
+junit = "4.13.2"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+leakcanary = { group = "com.squareup.leakcanary", name = "leakcanary-android", version.ref = "leakcanary" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+# AGP 9 đã tích hợp Kotlin; plugin này chỉ để đưa đúng phiên bản KGP lên classpath (giống FuseHide).
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
