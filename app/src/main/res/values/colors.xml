@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material 3 colors taken from style.css -->
+<resources>
+    <color name="md_primary">#495d92</color>
+    <color name="md_on_primary">#ffffff</color>
+    <color name="md_primary_container">#dae2ff</color>
+    <color name="md_on_primary_container">#304578</color>
+    <color name="md_secondary_container">#dce2f9</color>
+    <color name="md_on_secondary_container">#404659</color>
+    <color name="md_error_container">#ffdad6</color>
+    <color name="md_on_error_container">#93000a</color>
+    <color name="md_surface">#faf8ff</color>
+    <color name="md_surface_container">#f1f0f7</color>
+    <color name="md_surface_container_high">#eeedf4</color>
+    <color name="md_surface_container_highest">#e8e7ef</color>
+    <color name="md_on_surface">#1a1b21</color>
+    <color name="md_on_surface_variant">#45464f</color>
+    <color name="md_outline">#757780</color>
+    <color name="md_outline_variant">#c5c6d0</color>
+    <color name="log_warn">#e5a94d</color>
+    <color name="ic_launcher_background">#1E2A38</color>
+    <color name="log_error">#ba1a1a</color>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Captures the controller\'s arrow keys to move the virtual mouse cursor while mouse mode is on.</string>
+</resources>
