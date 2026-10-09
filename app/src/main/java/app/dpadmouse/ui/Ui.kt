@@ -99,8 +99,8 @@ class Ui(val ctx: Context) {
         name: String,
         desc: String? = null,
         trailing: View? = null,
-        onClick: (() -> Unit)? = null,
-        trailingExpands: Boolean = false
+        trailingExpands: Boolean = false,
+        onClick: (() -> Unit)? = null
     ) : LinearLayout(ctx) {
         val nameView = label(name, 15.5f, R.color.md_on_surface, bold = true)
         val descView = label(desc ?: "", 13f, R.color.md_on_surface_variant).apply {
